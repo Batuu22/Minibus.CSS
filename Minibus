@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Minibus</title>
+<style type="text/css">
+.picture{width:469px; height:534px; margin: 100px auto;}
+.minibus{width:400px; height:420px; border:1px solid #000; background:#fff; border-radius:15px ; margin:-2px auto;}
+.leftmirror{width: 33px; height: 20px; background: #f00; border-top:1px solid #000 ; border-left:1px solid #000 ; border-bottom: 1px solid #000; margin: -192px 0 0 0; border-radius: 4px 0 0 4px;}
+.rightmirror{width: 33px; height: 20px; background: #f00; border-top:1px solid #000 ; border-right:1px solid #000;border-bottom: 1px solid #000; margin: -22px 0 0 436px; border-radius: 0 4px 4px 0;}
+.rightwheel{width:50px; height: 40px; background: #000;  border-radius: 0 0 10px 10px; margin:-40px 0 0 328px}
+.leftwheel{width:50px; height: 40px; background: #000; border-radius: 0 0 10px 10px; margin: 171px 0 0 87px ;}
+.antenna{width:1.5px; height: 70px; background: #000; border-radius: 2px 2px 0 0; margin: 0 0 0 225px; transform: rotate(20deg);}
+.rearviewmirror{width:70px; height:20px; border: 1px solid #000; background:#bebebe; border-radius: 5px; margin: 40px auto 0 auto;}
+.passengerseat{width:110px; height:120px; background:rgb(60, 60, 233); border-radius: 10px 10px 0 0; margin: 84px 0 0 50px; float: left;}
+.driverseat{width:110px; height:120px; background:rgb(60, 60, 233); border-radius: 10px 10px 0 0; float: left; margin: 84px 0 0 0; }
+.leftwiper{width:94px; height:2px; background:#000; border-radius: 8px 0 0 8px; box-shadow: -1px -1px 1px #000; margin: 118px 0 0 16px; }
+.rightwiper{width:94px; height:2px; background: #000; border-radius: 0 8px 8px 0; box-shadow: 1px -1px 1px #000; margin: 0 0 0 0}
+.leftsmallbox{width:11px; height: 2.5px; background: #000; float: left; margin:201.5px 0 0 0px}
+.rightsmallbox{width:11px; height: 2.5px; background: #000; float: left; margin:201.5px 0 0 56px }
+.wheel{width:45px; height:20px; background:rgb(60, 60, 233); border-radius: 30px 30px 0 0 ; border-top:6px solid  #000; border-left:6px solid  #000; border-right:6px solid #000; margin: 92px auto 0 auto;}
+.vehiclemembersbox{width:400px; height:153.9px; background: #f00; clear: both; border-top: 1px solid #000; border-radius: 0 0 14px 14px}
+.leftlight{width:50px; height:50px; background:#ffff68; border-radius: 25px 25px 25px 25px; box-shadow: 4px 4px 10px #ffff68,-4px -4px 10px #ffff68; margin: 43px 0 0 35px; float: left;}
+
+.vehiclefrontbox{width:120px; height:25px; float: left; margin: 53px 0 0 52px; }
+.vehiclefrontboxmembers1{width:30px; height: 4px; background: #000; margin: 0 auto }
+.vehiclefrontboxmembers2{width:60px; height: 4px; background: #000; margin: 3px auto 0 auto }
+.vehiclefrontboxmembers3{width:90px; height: 4px; background: #000; margin: 3px auto 0 auto}
+.vehiclefrontboxmembers4{width:120px; height: 4px; background: #000; margin: 3px auto 0 auto;}
+
+.rightlight{width:50px; height:50px; background:#ffff68; border-radius: 25px 25px 25px 25px; box-shadow: 4px 4px 10px #ffff68,-4px -4px 10px #ffff68;margin: 43px 0 0 52px ; float: left;}
+.plate{width:133px; height:16px; background: #fff; border: 1px solid #000; clear:both; margin: 0 0 0 129px;}
+.platecode{width:17px; height:15px; background: #00f; color:#fff; font: 11px tahoma; text-align: right; padding:1px 1px 0 0; float: left;}
+.platename{width:105px; height:15px; float: left;font: bold 13px tahoma ; text-align: center;}
+</style>    
+</head>
+<body>
+<div class="picture">
+<div class="antenna"></div>
+ <div class="minibus">
+ <div class="rearviewmirror"></div>
+ <div class="passengerseat">
+ <div class="leftwiper"></div>
+ </div>
+ <div class="leftsmallbox"></div>
+ <div class="rightsmallbox"></div>
+ <div class="driverseat">
+ <div class="wheel"></div>
+ <div class="rightwiper"></div>   
+ </div>
+ <div class="vehiclemembersbox">
+ <div class="leftlight"></div>
+ <div class="vehiclefrontbox">
+ <div class="vehiclefrontboxmembers1"></div>
+ <div class="vehiclefrontboxmembers2"></div>
+ <div class="vehiclefrontboxmembers3"></div>
+ <div class="vehiclefrontboxmembers4"></div> 
+ </div>
+ <div class="rightlight"></div>
+ <div class="plate">
+ <div class="platecode">GB</div>
+ <div class="platename">EF BUS 1956</div>   
+ </div>   
+ </div>  
+ </div>
+ <div class="leftmirror"></div> 
+ <div class="rightmirror"></div>
+ <div class="leftwheel"></div>
+ <div class="rightwheel"></div>
+</div>
+</body> 
+</html>
